@@ -1,0 +1,1522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Airbnb</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/airbnb-icon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="images/airbnb-icon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Neuton:400,800" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
+  <!--  <link rel="stylesheet" href="css/grid.css">-->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header class="main-header">
+    <nav class="main-nav">
+      <img src="https://typeset-beta.imgix.net/rehost%2F2016%2F9%2F13%2F682091a6-4f41-47cd-936e-851fc13eb3a6.jpg" alt="Airbnb Logo" class="main-nav__logo">
+      <!--      <img src="https://typeset-beta.imgix.net/rehost%2F2016%2F9%2F13%2F682091a6-4f41-47cd-936e-851fc13eb3a6.jpg" alt="Airbnb Logo" class="main-nav__logo"> -->
+      <div class="main-nav__container">
+        <a href="#" class="main-nav__link">No time to host?</a>
+        <a href="#" class="main-nav__link">Become a Host</a>
+        <a href="#" class="main-nav__link">Help</a>
+        <a href="#" class="main-nav__link">Sign up</a>
+        <a href="#" class="main-nav__link">Login</a>
+      </div>
+    </nav>
+    <div class="container flex-container">
+      <div class="main-header__container">
+        <h1 class="main-header__title"><span>Airbnb</span> Book unique homes and experience a city like a local.</h1>
+        <form class="main-header__form">
+          <div class="main-header__input-container">
+            <label class="main-header__label" for="main-header__input">Where</label>
+            <input type="text" class="main-header__input" id="main-header__input" placeholder="Anywhere" required>
+          </div>
+          <div class="main-header__input-container">
+            <label class="main-header__label" for="main-header__input">When</label>
+            <input type="date" class="main-header__input" id="main-header__input" value="2017-06-01" required>
+          </div>
+          <div class="main-header__input-container">
+            <label class="main-header__label" for="main-header__select">Guests</label>
+            <select name="main-header__select" class="main-header__select" id="main-header__select">
+              <option value="1 Guest" selected>1 Guest</option>
+              <option value="2 Guests">2 Guests</option>
+              <option value="3 Guests">3 Guests</option>
+              <option value="4 Guests">4 Guests</option>
+              <option value="5 Guests">5 Guests</option>
+            </select>
+          </div>
+          <div class="main-header__button-container"><a href="#" class="main-header__button">Search</a></div>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <section class="primary-section">
+      <div class="primary-section__link-container">
+        <a href="#" class="primary-section__tab primary-section__tab--active">For You</a>
+        <a href="#" class="primary-section__tab">Homes</a>
+        <a href="#" class="primary-section__tab">Experiences</a>
+        <a href="#" class="primary-section__tab">Places</a>
+      </div>
+      <div class="primary-section__title-container">
+        <h2 class="primary-section__title">Experiences</h2>
+        <a href="#" class="primary-section__link">See all<i class="fa fa-angle-right"></i></a>
+      </div>
+      <div class="primary-section__posts-container">
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/6a30b136-b1a7-426a-aee1-95e8ddf6f5d6.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description"><span class="post__price">$43</span>Pair wine with a paint brush</p>
+            <p class="post__reviews"><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i>22 reviews</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/e0769595-2a80-46ce-89cc-883e177070cb.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description"><span class="post__price">$74</span>Surf and sip coffee with a Manhattan Beach local</p>
+            <p class="post__reviews"><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i>10 reviews</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/81ed6da7-f40b-46c6-b3d5-31057a8ed2b0.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description"><span class="post__price">$25</span>Hike the Hollywood Hills and Griffith Park!</p>
+            <p class="post__reviews"><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i>130 reviews</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/f86292db-9768-4f32-8111-93c7871a2846.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description"><span class="post__price">$127</span>Paint a classic Italian piece, wine in hand</p>
+            <p class="post__reviews"><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i>5 reviews</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/1f7d58b1-68a5-4cc0-ac7c-2b58ee4b4058.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description"><span class="post__price">$43</span>Pair wine with a paint brush</p>
+            <p class="post__reviews"><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i>22 reviews</p>
+          </div>
+        </div>
+        <i class="fa fa-angle-right primary-section__icon"></i>
+      </div>
+      <div class="primary-section__title-container">
+        <h2 class="primary-section__title">Homes</h2>
+        <a href="#" class="primary-section__link">See all<i class="fa fa-angle-right"></i></a>
+      </div>
+      <div class="primary-section__posts-container">
+        <div class="post post--wide">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/15273358/d7329e9a_original.jpg?aki_policy=xx_large" alt="" class="post__image">
+            <span class="post__price">$69</span><span class="post__title">I SETTE COMI - TRULLO EDERA</span>
+            <p class="post__description">Entire home/apt - 2 beds</p>
+            <p class="post__reviews"><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i>22 reviews</p>
+          </div>
+        </div>
+        <div class="post post--wide">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/21162888/5a0f1151_original.jpg?aki_policy=xx_large" alt="" class="post__image">
+            <span class="post__price">$375</span>
+            <span class="post__title">Secluded Intown Treehouse</span>
+            <p class="post__description">Entire home/apt - 1 bed</p>
+            <p class="post__reviews"><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i>10 reviews</p>
+          </div>
+        </div>
+        <div class="post post--wide">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/307a5575-c3a4-4b21-8127-a37875ec1239.jpg?aki_policy=xx_large" alt="" class="post__image">
+            <span class="post__price">$500</span>
+            <span class="post__title">Malibu DreamAirstream</span>
+            <p class="post__description">Entire home/apt - 1 bed</p>
+            <p class="post__reviews"><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i><i class="fa fa-star post__star" aria-hidden="true"></i>130 reviews</p>
+          </div>
+        </div>
+        <i class="fa fa-angle-right primary-section__icon primary-section__icon--centered"></i>
+      </div>
+      <div class="primary-section__title-container">
+        <h2 class="primary-section__title">Featured destinations</h2>
+        <a href="#" class="primary-section__link">See all<i class="fa fa-angle-right"></i></a>
+      </div>
+      <div class="primary-section__posts-container">
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/ac/pictures/7bff51c1-3c35-47a5-a86c-5ea75ab6be6c.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70" alt="" class="post__image"><span class="post__title">Los Angeles</span>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/ac/pictures/be1dee1c-2ce7-4efb-aca8-26d47a59514b.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70" alt="" class="post__image"><span class="post__title">Florence</span>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/ac/pictures/ebbb24af-52d6-490c-89e9-16cc560140e8.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70" alt="" class="post__image"><span class="post__title">London</span>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/ac/pictures/1d8ecdb4-da01-4d35-9c9e-2ef6ca604eca.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70" alt="" class="post__image"><span class="post__title">Tokyo</span>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/ac/pictures/0c79a1b5-333a-421b-b9e3-effb8b9b9958.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70" alt="" class="post__image"><span class="post__title">Soeul</span>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/ac/pictures/d915ce17-d822-426d-b549-0c7b641fec56.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70" alt="" class="post__image"><span class="post__title">Paris</span>
+          </div>
+        </div>
+        <i class="fa fa-angle-right primary-section__icon primary-section__icon--centered"></i>
+      </div>
+      <div class="primary-section__title-container">
+        <h2 class="primary-section__title">Arts & Design experiences</h2>
+        <a href="#" class="primary-section__link">See all<i class="fa fa-angle-right"></i></a>
+      </div>
+      <div class="primary-section__posts-container">
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/4259600e-c0a5-4516-b341-a540907b3a88.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description">
+              <span class="post__price">$35</span> London Street Art Tour run by Street Art blogger
+            </p>
+            <p class="post__reviews">
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i> 6 Reviews
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/01c4f4cc-ee6a-42f6-982d-c9c034434828.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description">
+              <span class="post__price">$51</span> It's an opportunity to learn SUMIE in Tokyo
+            </p>
+            <p class="post__reviews">
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i> 26 Reviews
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/1714ec31-8836-40b0-b5f1-97dddf4c5b3e.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description">
+              <span class="post__price">$35</span> Enter the world of sacred tattoo (sakyant)
+            </p>
+            <p class="post__reviews">
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i> 49 Reviews
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/25097e2b-43a3-417e-a9e0-1bc582b4801a.jpg?aki_policy=poster" alt="" class="post__image post__image--custom">
+            <p class="post__description">
+              <span class="post__price">$79</span> DTLA Rooftop Night Photography
+            </p>
+            <p class="post__reviews">
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i> 34 Reviews
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/38a063f9-1f0a-4402-9a86-4a837c1267e7.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description">
+              <span class="post__price">$120</span> Step behind the scenes of Havana’s theater culture
+            </p>
+            <p class="post__reviews">
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i> 34 Reviews
+            </p>
+          </div>
+        </div>
+        <i class="fa fa-angle-right primary-section__icon"></i>
+      </div>
+      <div class="primary-section__title-container">
+        <h2 class="primary-section__title">Places in London</h2>
+        <a href="#" class="primary-section__link">See all<i class="fa fa-angle-right"></i></a>
+      </div>
+      <div class="primary-section__posts-container">
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img src="https://a0.muscache.com/ac/pictures/7eafab85-636d-4355-9cf7-f681b0732712.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" class="post__image">
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">
+                Classic Bakeries
+              </p>
+            </div>
+            <p class="post__description">
+              <span class="post__author">By Lilly James</span> Baker
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img src="https://a0.muscache.com/ac/pictures/847a06b1-0394-4194-91d7-0a1a270d1981.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" class="post__image">
+              <p class="post__image-label post__image-label--custom">Guide</p>
+              <p class="post__image-title">Cocktail Bars</p>
+            </div>
+            <p class="post__description">
+              <span class="post__author">By Yusif Al-Baggou</span> Head barman
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img src="https://a0.muscache.com/ac/pictures/9fffbd86-8385-4453-bb22-fe5912e79a55.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" class="post__image">
+              <p class="post__image-label post__image-label--custom">Guide</p>
+              <p class="post__image-title">Skate Spots</p>
+            </div>
+            <p class="post__description">
+              <span class="post__author">By Savannah Stacey Keenan</span> Skateboarder
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img src="https://a0.muscache.com/ac/pictures/c20430e6-0fff-4beb-ae4d-56a1632ef038.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" class="post__image">
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">Literary London</p>
+            </div>
+            <p class="post__description">
+              <span class="post__author">By Polina Kalinina</span> Theater Director
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img src="https://a0.muscache.com/ac/pictures/58af85ff-b305-43ea-8746-18df2ab6c73f.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" class="post__image">
+              <p class="post__image-label post__image-label--custom">Guide</p>
+              <p class="post__image-title">Vinyl Shopping</p>
+            </div>
+            <p class="post__description">
+              <span class="post__author">By Bradley Zero Phillip</span> DJ
+            </p>
+          </div>
+        </div>
+        <i class="fa fa-angle-right primary-section__icon"></i>
+      </div>
+      <div class="primary-section__title-container">
+        <h2 class="primary-section__title">Fashion experiences</h2>
+        <a href="#" class="primary-section__link">See all<i class="fa fa-angle-right"></i></a>
+      </div>
+      <div class="primary-section__posts-container">
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/d5453178-6dc4-4641-9f7c-bef2021ebb95.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description">
+              <span class="post__price">$64</span> Navigate Tokyo's hottest and hidden street fashion
+            </p>
+            <p class="post__reviews">
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i> 103
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/f8b51a41-900b-4312-9ea0-d141133a116d.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description">
+              <span class="post__price">$85</span> Create a custom pill box hat over high tea
+            </p>
+            <p class="post__reviews">
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i> 54 reviews
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/e5e0d41c-6752-4a51-9437-bcf1c25295c4.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description">
+              <span class="post__price">$75</span> Get The Best Of Japan's Fashion With A Pro Stylist
+            </p>
+            <p class="post__reviews">
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i> 52 reviews
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/b9c0c6d6-3bf9-451b-9c4e-aa70c5cf6aa9.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description">
+              <span class="post__price">$75</span> Hang with Senegalese tailors
+            </p>
+            <p class="post__reviews">
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i> 31 reviews
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/40d05646-1f3b-4ee4-b6fb-a72a3afc0297.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description">
+              <span class="post__price">$110</span> Shopping experience with a local fashion hunter
+            </p>
+            <p class="post__reviews">
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i> 20 reviews
+            </p>
+          </div>
+        </div>
+        <i class="fa fa-angle-right primary-section__icon"></i>
+      </div>
+      <div class="primary-section__title-container">
+        <h2 class="primary-section__title">Places in Sydney</h2>
+        <a href="#" class="primary-section__link">See all<i class="fa fa-angle-right"></i></a>
+      </div>
+      <div class="primary-section__posts-container">
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img src="https://a0.muscache.com/ac/pictures/8a166d4d-3e65-465b-9353-ca0809a6db5d.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" class="post__image">
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">Rock Pools &amp; Beaches</p>
+            </div>
+            <p class="post__description">
+              <span class="post__author">By Ken Done</span> Artist
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img src="https://a0.muscache.com/ac/pictures/d16dc2ae-bd3e-481a-af8b-e8102c7cb10c.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" class="post__image">
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">Outdoor Workouts</p>
+            </div>
+            <p class="post__description">
+              <span class="post__author">By Chris Feather</span> Personal trainer
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img src="https://a0.muscache.com/ac/pictures/ad8b948c-43ca-4179-a0e4-11fe364cf674.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" class="post__image">
+              <p class="post__image-label post__image-label--custom">Guide</p>
+              <p class="post__image-title">Vegan Eats</p>
+            </div>
+            <p class="post__description">
+              <span class="post__author">By Maz Valcorza</span> Restaurateur
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img src="https://a0.muscache.com/ac/pictures/5b9aff19-0cef-499b-8ce2-a096d509bd42.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" class="post__image">
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">Specialty Coffee</p>
+            </div>
+            <p class="post__description">
+              <span class="post__author">By Sean NcManus</span> Barista
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img src="https://a0.muscache.com/ac/pictures/ecfb9f62-97aa-4ed6-b994-b03237a4dca0.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" class="post__image">
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">Men's Styles &amp; Grooming</p>
+            </div>
+            <p class="post__description">
+              <span class="post__author">By Jimmy Niggles Esq.</span> Founder, Beard Season
+            </p>
+          </div>
+        </div>
+        <i class="fa fa-angle-right primary-section__icon"></i>
+      </div>
+      <div class="primary-section__title-container">
+        <h2 class="primary-section__title">Entertainment experiences</h2>
+        <a href="#" class="primary-section__link">See all<i class="fa fa-angle-right"></i></a>
+      </div>
+      <div class="primary-section__posts-container">
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/f96b20fa-09e2-4843-a5e8-6f67d063a881.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description">
+              <span class="post__price">$67</span> Exercise Your Funny Bone!, Pub Grub & Comedy Club
+            </p>
+            <p class="post__reviews">
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i> 23 reviews
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/09c78f79-00b4-4fa5-87d1-a22a5813b608.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description">
+              <span class="post__price">$85</span> Let's Photography together in Florence
+            </p>
+            <p class="post__reviews">
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i> 36 reviews
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/e79fec1d-4e91-4f88-af0f-4ffc756a669c.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description">
+              <span class="post__price">$80</span> Enjoy a private happy hour with italian musician
+            </p>
+            <p class="post__reviews">
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i> 32 reviews
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/87725784-9ddf-4361-aff7-3b5a67b7edf6.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description">
+              <span class="post__price">$52</span> Enjoy a unique Tango's class
+            </p>
+            <p class="post__reviews">
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i> 7 reviews
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/a76882ad-7013-429b-bc46-954b3ac7e54a.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description">
+              <span class="post__price">$81</span> Edit your pictures directly after your photo shoot
+            </p>
+            <p class="post__reviews">
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i> 33 reviews
+            </p>
+          </div>
+        </div>
+        <i class="fa fa-angle-right primary-section__icon"></i>
+      </div>
+      <div class="primary-section__title-container">
+        <h2 class="primary-section__title">Places in Seoul</h2>
+        <a href="#" class="primary-section__link">See all<i class="fa fa-angle-right"></i></a>
+      </div>
+      <div class="primary-section__posts-container">
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img src="https://a0.muscache.com/ac/pictures/7a8d8748-80db-4bb8-95c7-2c5a1634eb58.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" class="post__image">
+              <p class="post__image-label post__image-label--custom">Guide</p>
+              <p class="post__image-title">Comfort Food</p>
+            </div>
+            <p class="post__description">
+              <span class="post__author">By Wook J. Lee</span> TV Producer
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img src="https://a0.muscache.com/ac/pictures/7663acad-fd19-46db-93e9-9c8dc315e63e.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" class="post__image">
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">Traditional Markets</p>
+            </div>
+            <p class="post__description">
+              <span class="post__author">By Jongdae Kim</span> Architect
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img src="https://a0.muscache.com/ac/pictures/ef19126c-1987-4e8e-916c-dee24ce8ca98.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" class="post__image">
+              <p class="post__image-label post__image-label--custom">Guide</p>
+              <p class="post__image-title">Modern Art</p>
+            </div>
+            <p class="post__description">
+              <span class="post__author">By Hyunjeung Kim</span> Art curator
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img src="https://a0.muscache.com/ac/pictures/a2dc053b-d6dc-4852-9097-e7e52267cec2.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" class="post__image">
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">Rice Wine Taverns</p>
+            </div>
+            <p class="post__description">
+              <span class="post__author">By Yo-Yong Lee</span> Restaurant owner
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img src="https://a0.muscache.com/ac/pictures/2f7c0ca9-3721-4bfc-9ce4-3b7e98240442.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" class="post__image">
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">Gourmet Coffee</p>
+            </div>
+            <p class="post__description">
+              <span class="post__author">By BK </span> Coffee bean buyer
+            </p>
+          </div>
+        </div>
+        <i class="fa fa-angle-right primary-section__icon"></i>
+      </div>
+      <div class="primary-section__title-container">
+        <h2 class="primary-section__title">Sport experiences</h2>
+        <a href="#" class="primary-section__link">See all<i class="fa fa-angle-right"></i></a>
+      </div>
+      <div class="primary-section__posts-container">
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/f3836c62-2735-48c0-8738-aef07aec3c1f.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description">
+              <span class="post__price">$58</span> Fortress night hike & Taste on our traditions
+            </p>
+            <p class="post__reviews">
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i> 22 reviews
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/f56389eb-b38e-4181-a91a-dd5a08434c62.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description">
+              <span class="post__price">$87</span> Surf a break with an out and proud local
+            </p>
+            <p class="post__reviews">
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i> 28 reviews
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/b7b034c4-b90f-4413-b8d2-2c09d5be1a04.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description">
+              <span class="post__price">$81</span> Watch the sunset over the Mediterranean
+            </p>
+            <p class="post__reviews">
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i> 70 reviews
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/6bc283f2-df4f-4446-82aa-0a338ce486b0.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description">
+              <span class="post__price">$129</span> KITESURF MALIBU learn to harness the wind!!!
+            </p>
+            <p class="post__reviews">
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i> 31 reviews
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/0eb8bb86-7ced-48f1-8348-8bafce1f5af1.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description">
+              <span class="post__price">$46</span> Relax and learn to play Boules and drink Pastis...
+            </p>
+            <p class="post__reviews">
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i> 19 reviews
+            </p>
+          </div>
+        </div>
+        <i class="fa fa-angle-right primary-section__icon"></i>
+      </div>
+      <div class="primary-section__title-container">
+        <h2 class="primary-section__title">Places in Havana</h2>
+        <a href="#" class="primary-section__link">See all<i class="fa fa-angle-right"></i></a>
+      </div>
+      <div class="primary-section__posts-container">
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img src="https://a0.muscache.com/ac/pictures/a8f0c2ed-8e57-40a1-a83b-fd89baad85e9.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" class="post__image">
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">Artisan Craft Shops</p>
+            </div>
+            <p class="post__description">
+              <span class="post__author">By Sandra de Huelbes</span> Shop owner
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img src="https://a0.muscache.com/ac/pictures/a5a87526-0093-451d-b59c-e17f66df043a.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" class="post__image">
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">Where To Eat Like A Local</p>
+            </div>
+            <p class="post__description">
+              <span class="post__author">By Mayrelis Peraza</span> Restaurant owner
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img src="https://a0.muscache.com/ac/pictures/9bd0b003-ff13-48b7-a6d3-4a8e8f833f5c.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" class="post__image">
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">Comunnity Art Projects</p>
+            </div>
+            <p class="post__description">
+              <span class="post__author">By Gilberto “Papito” Valladares</span> Barber
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img src="https://a0.muscache.com/ac/pictures/c19a6933-4f09-4346-ad32-7a34ac65764e.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" class="post__image">
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">Must-See Architecture</p>
+            </div>
+            <p class="post__description">
+              <span class="post__author">By Orlando Inclán</span> Architect
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img src="https://a0.muscache.com/ac/pictures/40fb3cbe-88b1-4292-b187-286685a8ba46.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" class="post__image">
+              <p class="post__image-label post__image-label--custom">Guide</p>
+              <p class="post__image-title">LGBTQ Parties</p>
+            </div>
+            <p class="post__description">
+              <span class="post__author">By Francisco López</span> Actor
+            </p>
+          </div>
+        </div>
+        <i class="fa fa-angle-right primary-section__icon"></i>
+      </div>
+      <div class="primary-section__title-container">
+        <h2 class="primary-section__title">Welness experiences</h2>
+        <a href="#" class="primary-section__link">See all<i class="fa fa-angle-right"></i></a>
+      </div>
+      <div class="primary-section__posts-container">
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/1f7d58b1-68a5-4cc0-ac7c-2b58ee4b4058.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description">
+              <span class="post__price">$85</span> Mindful meditation in Santa Monica
+            </p>
+            <p class="post__reviews">
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i> 17 reviews
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/aeb95b29-3ec9-4e8c-9325-6efbbfc9d434.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description">
+              <span class="post__price">$39</span> Stretch it out at sunset on Baker Beach
+            </p>
+            <p class="post__reviews">
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i> 35 reviews
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/e04e5ec8-2863-458f-960b-74dc9ece021a.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description">
+              <span class="post__price">$80</span> Enjoy a private happy hour with italian musician
+            </p>
+            <p class="post__reviews">
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i> 32 reviews
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/bf2e9eae-150c-4390-b3b1-9a06c2b3daf6.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description">
+              <span class="post__price">$45</span> Experience metaphysical LA with a modern mystic
+            </p>
+            <p class="post__reviews">
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i> 5 reviews
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/ae23f817-b6a3-4224-97f4-c6a236393c48.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description">
+              <span class="post__price">$54</span> Edit your pictures directly after your photo shoot
+            </p>
+            <p class="post__reviews">
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i>
+              <i class="fa fa-star post__star"></i> 17 reviews
+            </p>
+          </div>
+        </div>
+        <i class="fa fa-angle-right primary-section__icon"></i>
+      </div>
+      <div class="primary-section__title-container">
+        <h2 class="primary-section__title">Places in Detroit</h2>
+        <a href="#" class="primary-section__link">See all<i class="fa fa-angle-right"></i></a>
+      </div>
+      <div class="primary-section__posts-container">
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img src="https://a0.muscache.com/ac/pictures/6718b0fe-438c-4aa6-a939-2012d90b3291.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" class="post__image">
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">Storytelling And Comedy</p>
+            </div>
+            <p class="post__description">
+              <span class="post__author">By Satori Shakoor</span> Storyteller
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img src="https://a0.muscache.com/ac/pictures/d8ce9ff2-296e-4921-8107-9743589850b3.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" class="post__image">
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">Oldschool Jazz &amp; Blues</p>
+            </div>
+            <p class="post__description">
+              <span class="post__author">By Marsha Music</span> Music historian
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img src="https://a0.muscache.com/ac/pictures/9fcca4df-5b82-4924-b64a-f7c3055a585c.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" class="post__image">
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">Literary Hangouts</p>
+            </div>
+            <p class="post__description">
+              <span class="post__author">By Destree Cooper</span> Author
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img src="https://a0.muscache.com/ac/pictures/f53e480d-1afe-45ec-b38a-6465992b70ec.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" class="post__image">
+              <p class="post__image-label post__image-label--custom">Guide</p>
+              <p class="post__image-title">Cocktail Bars</p>
+            </div>
+            <p class="post__description">
+              <span class="post__author">By Dave Kwiatkowski</span> Bar owner
+            </p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img src="https://a0.muscache.com/ac/pictures/c76b7ac1-9cb4-4cf6-8985-f6eb7253eb3b.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" class="post__image">
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">Iconic Restaurants</p>
+            </div>
+            <p class="post__description">
+              <span class="post__author">By Starex Smith </span> Food blogger
+            </p>
+          </div>
+        </div>
+        <i class="fa fa-angle-right primary-section__icon"></i>
+      </div>
+      <div class="primary-section__title-container">
+        <h2 class="primary-section__title">Nature experiences</h2>
+        <a href="#" class="primary-section__link">See all<i class="fa fa-angle-right"></i></a>
+      </div>
+      <div class="primary-section__posts-container">
+        <div class="post">
+          <div class="post__container"><img class="post__image" src="https://a0.muscache.com/im/pictures/b0d22b2a-3d5c-4f6a-b15c-a8db38751e2c.jpg?aki_policy=poster" alt="" />
+            <p class="post__description"><span class="post__price">$52</span> Half day Hike in the Tuscan countryside</p>
+            <p class="post__reviews"><i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> 30 reviews</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container"><img class="post__image" src="https://a0.muscache.com/im/pictures/03ee2ce2-782e-42f3-b3c2-7cf85b3cd6c9.jpg?aki_policy=poster" alt="" />
+            <p class="post__description"><span class="post__price">$25</span> Guided walk to the top of the Hollywood Sign</p>
+            <p class="post__reviews"><i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> 252 reviews</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container"><img class="post__image" src="https://a0.muscache.com/im/pictures/9e148ae5-654d-4041-8a19-0c4a495b665e.jpg?aki_policy=poster" alt="" />
+            <p class="post__description"><span class="post__price">$25</span> Hollywood sign hike on the trail less travelled</p>
+            <p class="post__reviews"><i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> 24 reviews</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container"><img class="post__image" src="https://a0.muscache.com/im/pictures/9a98c200-8071-4778-bf02-6a17153daded.jpg?aki_policy=poster" alt="" />
+            <p class="post__description"><span class="post__price">$80</span> Watch marine mammals with a captain</p>
+            <p class="post__reviews"><i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> 13 reviews</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container"><img class="post__image" src="https://a0.muscache.com/im/pictures/9af06000-8013-46f8-b25a-4b26876d7910.jpg?aki_policy=poster" alt="" />
+            <p class="post__description"><span class="post__price">$56</span> Let go and haul - Cruising with local seadog</p>
+            <p class="post__reviews"><i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> 21 reviews</p>
+          </div>
+        </div><i class="fa fa-angle-right primary-section__icon"></i>
+      </div>
+      <div class="primary-section__title-container">
+        <h2 class="primary-section__title">Places in Nairobi</h2> <a class="primary-section__link" href="#">See all<i class="fa fa-angle-right"></i></a>
+        </h2>
+      </div>
+      <div class="primary-section__posts-container">
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container"><img class="post__image" src="https://a0.muscache.com/ac/pictures/3ff5732f-ca9d-4c82-97d9-0e534a01df52.jpg?interpolation=lanczos-none&amp;size=x_large&amp;output-format=progressive-jpeg&amp;output-quality=70" alt="" />
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">Ethical Crafts</p>
+            </div>
+            <p class="post__description"><span class="post__author">By Catherine Mahugu</span> Soko ethical fashion</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img class="post__image" src="https://a0.muscache.com/ac/pictures/a4a9fed2-24b1-47d5-8034-1b2fe30ea9e5.jpg?interpolation=lanczos-none&amp;size=x_large&amp;output-format=progressive-jpeg&amp;output-quality=70" alt="" />
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">Cocktails At Sunset</p>
+            </div>
+            <p class="post__description"><span class="post__author">By Susan Wong</span> Lifestyle editor</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img class="post__image" src="https://a0.muscache.com/ac/pictures/3bfbf930-2630-48b1-acb6-0a6a72b93eb3.jpg?interpolation=lanczos-none&amp;size=x_large&amp;output-format=progressive-jpeg&amp;output-quality=70" alt="" />
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">Spas And Pampering</p>
+            </div>
+            <p class="post__description"><span class="post__author">By Joy Kendi</span> Lifestyle blogger</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img class="post__image" src="https://a0.muscache.com/ac/pictures/7d32fa1a-2df2-4951-acd2-6fbb939c412e.jpg?interpolation=lanczos-none&amp;size=x_large&amp;output-format=progressive-jpeg&amp;output-quality=70" alt="" />
+              <p class="post__image-label post__image-label--custom">Guide</p>
+              <p class="post__image-title">Cheap Eats</p>
+            </div>
+            <p class="post__description"><span class="post__author">By Leah Kanda</span> Food blogger</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img class="post__image" src="https://a0.muscache.com/ac/pictures/530bf103-8411-4834-9430-055867b3310a.jpg?interpolation=lanczos-none&amp;size=x_large&amp;output-format=progressive-jpeg&amp;output-quality=70" alt="" />
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">Widlife In The City</p>
+            </div>
+            <p class="post__description"><span class="post__author">By Paula Kahumbu</span> Conversationist</p>
+          </div>
+        </div>
+        <i class="fa fa-angle-right primary-section__icon"></i>
+      </div>
+      <div class="primary-section__title-container">
+        <h2 class="primary-section__title">Food &amp; Drink experiences</h2>
+        <a href="#" class="primary-section__link">See all<i class="fa fa-angle-right"></i></a>
+      </div>
+      <div class="primary-section__posts-container">
+        <div class="post">
+          <div class="post__container"><img class="post__image" src="https://a0.muscache.com/im/pictures/3dc03465-820a-4698-871c-5d174947eff1.jpg?aki_policy=poster" alt="" />
+            <p class="post__description"><span class="post__price">$142</span> learn family recipes in the Chianti Hills</p>
+            <p class="post__reviews"><i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> 105 reviews</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container"><img class="post__image" src="https://a0.muscache.com/im/pictures/92273b76-6ec7-4a1d-8f56-e354db9b32ff.jpg?aki_policy=poster" alt="" />
+            <p class="post__description"><span class="post__price">$102</span> Induige in local tapas and cava with foodies</p>
+            <p class="post__reviews"><i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> 156 reviews</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/80ce03ef-c115-40c8-8a7c-0f40d991f824.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description"><span class="post__price">$41</span> Explore the flavour of the spirit with an expert</p>
+            <p class="post__reviews"><i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> 2 reviews</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container"><img class="post__image" src="https://a0.muscache.com/im/pictures/365e31a0-f96d-4c2e-8f48-14c7ce5511c8.jpg?aki_policy=poster" alt="" />
+            <p class="post__description"><span class="post__price">$52</span> Learn about Tuscany's wines &amp; enjoy 6 glasses</p>
+            <p class="post__reviews"><i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> 13 reviews</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container"><img class="post__image" src="https://a0.muscache.com/im/pictures/7fdaf3b2-8e13-4180-ad5d-25ce47b8e8d9.jpg?aki_policy=poster" alt="" />
+            <p class="post__description"><span class="post__price">$66</span> Come visit our residence and cook,have tea!</p>
+            <p class="post__reviews"><i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> 15 reviews</p>
+          </div>
+        </div><i class="fa fa-angle-right primary-section__icon"></i>
+      </div>
+      <div class="primary-section__title-container">
+        <h2 class="primary-section__title">Places in Tokyo</h2> <a class="primary-section__link" href="#">See all<i class="fa fa-angle-right"></i></a>
+        </h2>
+      </div>
+      <div class="primary-section__posts-container">
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container"><img class="post__image" src="https://a0.muscache.com/ac/pictures/f19f4c65-ec85-4fa2-9fa4-291d8a6c9503.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" />
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">Classic Bakeries</p>
+            </div>
+            <p class="post__description"><span class="post__author">By Tatsuya Takahashi</span> Synthesizer engineer</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img class="post__image" src="https://a0.muscache.com/ac/pictures/e0f98cb6-caa0-4c92-b218-d5ae2d64eeeb.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" />
+              <p class="post__image-label post__image-label--custom">Guide</p>
+              <p class="post__image-title">Surfing Scene</p>
+            </div>
+            <p class="post__description"><span class="post__author">By Tomomi Sase</span> Jewelry designer</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img class="post__image" src="https://a0.muscache.com/ac/pictures/85b103e7-a604-4680-aa03-e5d8270d7249.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" />
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">Tea Bowl Culture</p>
+            </div>
+            <p class="post__description"><span class="post__author">By Takayuki Koizumi</span> art director</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img class="post__image" src="https://a0.muscache.com/ac/pictures/233ea8ee-1e78-4ab1-b483-71550abbb6bc.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" />
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">Harajuku's Cutest Shops</p>
+            </div>
+            <p class="post__description"><span class="post__author">By Al Akizuki</span> Lolita fashion leader</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img class="post__image" src="https://a0.muscache.com/ac/pictures/bb9496b3-fdb0-4650-8c75-a67ed33dd98f.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" />
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">HShrines  &amp; Temples</p>
+            </div>
+            <p class="post__description"><span class="post__author">By Sowmay Ishiguro</span> Culrture writer</p>
+          </div>
+        </div>
+        <i class="fa fa-angle-right primary-section__icon"></i>
+      </div>
+      <div class="primary-section__title-container">
+        <h2 class="primary-section__title">Places in San Francisco</h2> <a class="primary-section__link" href="#">See all<i class="fa fa-angle-right"></i></a>
+        </h2>
+      </div>
+      <div class="primary-section__posts-container">
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container"><img class="post__image" src="https://a0.muscache.com/ac/pictures/25e4fae8-1c74-4a89-a042-7e0b071ea7de.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" />
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">Brunch Favourites</p>
+            </div>
+            <p class="post__description"><span class="post__author">By Chanda Stacker</span> food blogger</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+           <div class="post__image-container">
+             <img class="post__image" src="https://a0.muscache.com/ac/pictures/3929e039-b066-43f9-9e7d-1018ec9cfcb9.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" />
+             <p class="post__image-label">Guide</p>
+             <p class="post__image-title">Japanese Restaurants</p>
+           </div>
+            <p class="post__description"><span class="post__author">By Edgar Agbayani</span> Chef</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img class="post__image" src="https://a0.muscache.com/ac/pictures/83e907af-3907-4929-a438-9b773f9d4c1a.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" />
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">Authentic Latino Food</p>              
+            </div>
+            <p class="post__description"><span class="post__author">By Carlos Muela</span> SoMa StrEat food park</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img class="post__image" src="https://a0.muscache.com/ac/pictures/8593a0ac-d213-4163-9e90-957ab85f7928.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" />
+              <p class="post__image-label post__image-label--custom">Guide</p>
+              <p class="post__image-title">Street Art</p>
+            </div>
+            <p class="post__description"><span class="post__author">By Apexer</span> Artist</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img class="post__image" src="https://a0.muscache.com/ac/pictures/bf4e2165-5d43-43ab-a302-0860ba3dd92e.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" />
+              <p class="post__image-label post__image-label--custom">Guide</p>
+              <p class="post__image-title">Local Artists</p>
+            </div>
+            <p class="post__description"><span class="post__author">By Andrew McClintock</span> Gallerist</p>
+          </div>
+        </div>
+        <i class="fa fa-angle-right primary-section__icon"></i>
+      </div>
+      <div class="primary-section__title-container">
+        <h2 class="primary-section__title">Lifestyle experiences</h2> <a class="primary-section__link" href="#">See all<i class="fa fa-angle-right"></i></a>
+        </h2>
+      </div>
+      <div class="primary-section__posts-container">
+        <div class="post">
+          <div class="post__container"><img class="post__image" src="https://a0.muscache.com/im/pictures/2b2889ab-45ae-4e07-af03-45bd43e3b114.jpg?aki_policy=poster" alt="" />
+            <p class="post__description"><span class="post__price">$145</span> Tune into daily rhythms with two Cuban scholars</p>
+            <p class="post__reviews"><i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> 25 reviews</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/8dd45c05-1576-4c24-a593-7f05bf3ee3b7.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description"><span class="post__price">$61</span> See Barcelona highlights on a sidecar</p>
+            <p class="post__reviews"><i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> 27 reviews</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container"><img class="post__image" src="https://a0.muscache.com/im/pictures/957b37ef-a142-4484-a469-3bd8f124991a.jpg?aki_policy=poster" alt="" />
+            <p class="post__description"><span class="post__price">$55</span> Create your own perfume with professional perfumer</p>
+            <p class="post__reviews"><i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> 123 reviews</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container"><img class="post__image" src="https://a0.muscache.com/im/pictures/db0f7078-ce32-4bfe-a3d3-9b9fdcbaaa11.jpg?aki_policy=poster" alt="" />
+            <p class="post__description"><span class="post__price">$52</span> Local vibe &amp; narrow streets</p>
+            <p class="post__reviews"><i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> 53 reviews</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container"><img class="post__image" src="https://a0.muscache.com/im/pictures/739be187-a408-429f-a507-a97a4dd40fb1.jpg?aki_policy=poster" alt="" />
+            <p class="post__description"><span class="post__price">$18</span> Bike and hike with a typical carioca</p>
+            <p class="post__reviews"><i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> 15 reviews</p>
+          </div>
+        </div>
+        <i class="fa fa-angle-right primary-section__icon"></i>
+      </div>
+      <div class="primary-section__title-container">
+        <h2 class="primary-section__title">Places in Los Angeles</h2> <a class="primary-section__link" href="#">See all<i class="fa fa-angle-right"></i></a>
+        </h2>
+      </div>
+      <div class="primary-section__posts-container">
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container"><img class="post__image" src="https://a0.muscache.com/ac/pictures/8f6e655f-e123-4dd4-9152-b40b030d7ffd.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" />
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">Great resturants</p>
+            </div>
+            <p class="post__description"><span class="post__author">By Charles D. King</span> Entrepreneur</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+             <img class="post__image" src="https://a0.muscache.com/ac/pictures/be6a5058-c73f-4cc3-88ec-97fe00af6811.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" />
+             <p class="post__image-label">guide</p>
+             <p class="post__image-title">hikes with views</p>
+            </div
+            <p class="post__description"><span class="post__author">By Nichelle Hines</span> Spin instructor</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+           <div class="post__image-container">
+             <img class="post__image" src="https://a0.muscache.com/ac/pictures/5760cc0e-cbac-42f9-9935-1a3d849d06bd.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" />
+             <p class="post__image-label post__image-label--custom">guide</p>
+             <p class="post__image-title">scenic runs</p>
+           </div>
+            <p class="post__description"><span class="post__author">By Gustavo Gutlerrez</span> Fitness coach</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+           <div class="post__image-container">
+             <img class="post__image" src="https://a0.muscache.com/ac/pictures/9d90b65a-9241-427f-9c64-792296875b2c.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" />
+             <p class="post__image-label">guide</p>
+             <p class="post__image-title">all things persian</p>
+           </div>
+            <p class="post__description"><span class="post__author">By Abdi Nazemian</span> Author</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+           <div class="post__image-container">
+             <img class="post__image" src="https://a0.muscache.com/ac/pictures/39a33a7c-705d-42fe-a22a-68b8c3d31e76.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" />
+             <p class="post__image-label">guide</p>
+             <p class="post__image-title">AUTHENTIC VIETNAMESE</p>
+           </div>
+            <p class="post__description"><span class="post__author">By Cathy Chaplin</span> Food writer</p>
+          </div>
+        </div>
+        <i class="fa fa-angle-right primary-section__icon"></i>
+      </div>
+      <div class="primary-section__title-container">
+        <h2 class="primary-section__title">History experiences</h2> <a class="primary-section__link" href="#">See all<i class="fa fa-angle-right"></i></a>
+        </h2>
+      </div>
+      <div class="primary-section__posts-container">
+        <div class="post">
+          <div class="post__container"><img class="post__image" src="https://a0.muscache.com/im/pictures/1feda020-5d49-40c5-b3ec-6f79341fc74e.jpg?aki_policy=poster" alt="" />
+            <p class="post__description"><span class="post__price">$29</span> Relive Art-Historical Montmartre</p>
+            <p class="post__reviews"><i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> 2 reviews</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/e4809c9d-0dcd-4cc5-9b50-248845c77c61.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description"><span class="post__price">$52</span> Discover the unknown Gothic Quarter</p>
+            <p class="post__reviews"><i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> 20 reviews</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container"><img class="post__image" src="https://a0.muscache.com/im/pictures/ac497b07-8fa5-46ce-a66e-ce38ab9d3cb0.jpg?aki_policy=poster" alt="" />
+            <p class="post__description"><span class="post__price">$25</span> Learn SF's 1800s-1990s architecture</p>
+            <p class="post__reviews"><i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> 14 reviews</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container"><img class="post__image" src="https://a0.muscache.com/im/pictures/02ef3fa1-4330-4b0c-9560-d8e2e574fc2e.jpg?aki_policy=poster" alt="" />
+            <p class="post__description"><span class="post__price">$59</span> Follow the footsteps of black history</p>
+            <p class="post__reviews"><i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> 18 reviews</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container"><img class="post__image" src="https://a0.muscache.com/im/pictures/79419d84-9f45-4bc8-bc18-93df2c706969.jpg?aki_policy=poster" alt="" />
+            <p class="post__description"><span class="post__price">$45</span> An immersive art and cultural experience in Harlem</p>
+            <p class="post__reviews"><i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> 39 reviews</p>
+          </div>
+        </div>
+        <i class="fa fa-angle-right primary-section__icon"></i>
+      </div>
+      <div class="primary-section__title-container">
+        <h2 class="primary-section__title">Places in Paris</h2> <a class="primary-section__link" href="#">See all<i class="fa fa-angle-right"></i></a>
+        </h2>
+      </div>
+      <div class="primary-section__posts-container">
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container"><img class="post__image" src="https://a0.muscache.com/ac/pictures/55e3cd13-b792-433e-b034-8d4d8c2a8352.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" />
+              <p class="post__image-label">Guide</p>
+              <p class="post__image-title">HANDBAG SHOPPING</p>
+            </div>
+            <p class="post__description"><span class="post__author">By Belen Casadevall</span> Fashion director</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img class="post__image" src="https://a0.muscache.com/ac/pictures/4bbae65a-f226-43a2-890f-7cad7e81f5cd.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" />
+              <p class="post__image-label">guide</p>
+              <p class="post__image-title">where to see comedy</p>
+            </div>
+            <p class="post__description"><span class="post__author">By Baptiste Lecaplain</span> Actor &amp; comedian</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img class="post__image" src="https://a0.muscache.com/ac/pictures/e93e126b-403f-4903-ad72-bd2c53bd273d.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" />
+              <p class="post__image-label post__image-label--custom">guide</p>
+              <p class="post__image-title">scarf shops</p>
+            </div>
+            <p class="post__description"><span class="post__author">By Christophe Barbier</span> Journalist</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img class="post__image" src="https://a0.muscache.com/ac/pictures/7b1a200b-4b83-4be0-a1ea-c65d5c736e84.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" />
+              <p class="post__image-label  post__image-label--custom">guide</p>
+              <p class="post__image-title">wine bars</p>
+            </div>
+            <p class="post__description"><span class="post__author">By Gabrielle Vizzavona</span> Wine writer</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <div class="post__image-container">
+              <img class="post__image" src="https://a0.muscache.com/ac/pictures/26915044-a62b-46a9-9f9e-c492a2ed3e49.jpg?interpolation=lanczos-none&size=x_large&output-format=progressive-jpeg&output-quality=70" alt="" />
+              <p class="post__image-label post__image-label--custom">guide</p>
+              <p class="post__image-title">vintage decor</p>
+            </div>
+            <p class="post__description"><span class="post__author">By Fany Péchiodat</span> CEO, My Little Paris</p>
+          </div>
+        </div>
+        <i class="fa fa-angle-right primary-section__icon"></i>
+      </div>
+      <div class="primary-section__title-container">
+        <h2 class="primary-section__title">Music experiences</h2> <a class="primary-section__link" href="#">See all<i class="fa fa-angle-right"></i></a>
+        </h2>
+      </div>
+      <div class="primary-section__posts-container">
+        <div class="post">
+          <div class="post__container"><img class="post__image" src="https://a0.muscache.com/im/pictures/9ec7ba43-73f1-458d-a26b-139b1d5e9769.jpg?aki_policy=poster" alt="" />
+            <p class="post__description"><span class="post__price">$25</span> Catch a concert in the iconic Village Studios</p>
+            <p class="post__reviews"><i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> 18 reviews</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container">
+            <img src="https://a0.muscache.com/im/pictures/2c0df827-b775-4ca0-bca0-5616edfef954.jpg?aki_policy=poster" alt="" class="post__image">
+            <p class="post__description"><span class="post__price">$25</span> Live music with grammy nominated bands</p>
+            <p class="post__reviews"><i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> 20 reviews</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container"><img class="post__image" src="https://a0.muscache.com/im/pictures/3fcc9dd1-71ef-4643-878b-73bd2b76d411.jpg?aki_policy=poster" alt="" />
+            <p class="post__description"><span class="post__price">$57</span> Lets talk songs sample Dublin pub music scene</p>
+            <p class="post__reviews"><i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> 6 reviews</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container"><img class="post__image" src="https://a0.muscache.com/im/pictures/0b673abd-8622-43b8-ae7a-1421860e9343.jpg?aki_policy=poster" alt="" />
+            <p class="post__description"><span class="post__price">$24</span> Full moon sunset yoga + DJ on a downtown rooftop</p>
+            <p class="post__reviews"><i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> 10 reviews</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__container"><img class="post__image" src="https://a0.muscache.com/im/pictures/8fd84859-8712-468b-9a7f-338dab1761da.jpg?aki_policy=poster" alt="" />
+            <p class="post__description"><span class="post__price">$23</span> Listen to live jazz in a cozy flat</p>
+            <p class="post__reviews"><i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> <i class="fa fa-star post__star"></i> 49 reviews</p>
+          </div>
+        </div>
+        <i class="fa fa-angle-right primary-section__icon"></i>
+      </div>
+    </section>
+  </div>
+
+  <div class="container">
+    <section>
+      <div class="select__container">
+        <select name="main-select" class="main-select" id="main-select">
+          <option value="id">Bahasa Indonesia</option>
+          <option value="ms">Bahasa Melayu</option>
+          <option value="ca">Català</option>
+          <option value="da">Dansk</option>
+          <option value="de">Deutsch</option>
+          <option value="en" selected>English</option>
+          <option value="es">Español</option>
+          <option value="el">Eλληνικά</option>
+          <option value="fr">Français</option>
+          <option value="hr">Hrvatski</option>
+          <option value="it">Italiano</option>
+          <option value="hu">Magyar</option>
+          <option value="nl">Nederlands</option>
+          <option value="no">Norsk</option>
+          <option value="pl">Polski</option>
+          <option value="pt">Português</option>
+          <option value="fi">Suomi</option>
+          <option value="sv">Svenska</option>
+          <option value="tr">Türkçe</option>
+          <option value="is">Íslenska</option>
+          <option value="cs">Čeština</option>
+          <option value="ru">Русский</option>
+          <option value="th">ภาษาไทย</option>
+          <option value="zh">中文 (简体)</option>
+          <option value="zh-TW">中文 (繁體)</option>
+          <option value="ja">日本語</option>
+          <option value="ko">한국어</option>
+        </select>
+        <select name="main-select" class="main-select" id="main-select">
+          <option value="AED">AED</option>
+          <option value="ARS">ARS</option>
+          <option value="AUD">AUD</option>
+          <option value="BGN">BGN</option>
+          <option value="BRL">BRL</option>
+          <option value="CAD">CAD</option>
+          <option value="CHF">CHF</option>
+          <option value="CLP">CLP</option>
+          <option value="CNY">CNY</option>
+          <option value="COP">COP</option>
+          <option value="CRC">CRC</option>
+          <option value="CZK">CZK</option>
+          <option value="DKK">DKK</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+          <option value="HKD">HKD</option>
+          <option value="HRK">HRK</option>
+          <option value="HUF">HUF</option>
+          <option value="IDR">IDR</option>
+          <option value="ILS">ILS</option>
+          <option value="INR">INR</option>
+          <option value="JPY">JPY</option>
+          <option value="KRW">KRW</option>
+          <option value="MAD">MAD</option>
+          <option value="MXN">MXN</option>
+          <option value="MYR">MYR</option>
+          <option value="NOK">NOK</option>
+          <option value="NZD">NZD</option>
+          <option value="PEN">PEN</option>
+          <option value="PHP">PHP</option>
+          <option value="PLN">PLN</option>
+          <option value="RON">RON</option>
+          <option value="RUB">RUB</option>
+          <option value="SAR">SAR</option>
+          <option value="SEK">SEK</option>
+          <option value="SGD">SGD</option>
+          <option value="THB">THB</option>
+          <option value="TRY">TRY</option>
+          <option value="TWD">TWD</option>
+          <option value="UAH">UAH</option>
+          <option value="USD" selected>USD</option>
+          <option value="UYU">UYU</option>
+          <option value="VND">VND</option>
+          <option value="ZAR">ZAR</option>
+        </select>
+      </div>
+      <div class="section__nav">
+        <h5 class="section__title">Airbnb</h5>
+        <a href="#" class="section__link">About us   </a>
+        <a href="#" class="section__link">Careers   </a>
+        <a href="#" class="section__link">Press</a>
+        <a href="#" class="section__link">Policies</a>
+        <a href="#" class="section__link">Help</a>
+        <a href="#" class="section__link">Diversity &amp; Belonging</a>
+      </div>
+      <div class="section__nav">
+        <h5 class="section__title">Discover</h5>
+        <a href="#" class="section__link">Trust &amp; Safety   </a>
+        <a href="#" class="section__link">Travel Credit</a>
+        <a href="#" class="section__link">Gift Carfs</a>
+        <a href="#" class="section__link">Airbnb Citizen</a>
+        <a href="#" class="section__link">Business Travel</a>
+        <a href="#" class="section__link">Guidebooks</a>
+        <a href="#" class="section__link">Airbnbmag</a>
+      </div>
+      <div class="section__nav">
+        <h5 class="section__title">Hosting</h5>
+        <a href="#" class="section__link">Why Host</a>
+        <a href="#" class="section__link">Hospitality   </a>
+        <a href="#" class="section__link">Responsible Hosting</a>
+        <a href="#" class="section__link">Community Center</a>
+      </div>
+    </section>
+  </div>
+
+  <div class="container">
+    <footer class="main-footer l-footer">
+      <img src="https://www.startupgrind.com/static/images/conference/past-companies/21_airbnb.svg" alt="" class="main-footer__logo">
+      <p class="main-footer__text">&copy; Airbnb, Inc.
+      </p>
+      <p class="main-footer__text"> Coded by <a href="#" target="_blank">Stefan Dragas</a></p>
+      <div class="main-footer__nav">
+        <a href="#" class="main-footer__link">Terms</a>
+        <a href="#" class="main-footer__link">Privacy</a>
+        <a href="#" class="main-footer__link">Site Map</a>
+        <a href="#" class="main-footer__link"><i class="fa fa-facebook main-footer__icon"></i></a>
+        <a href="#" class="main-footer__link"><i class="fa fa-twitter main-footer__icon"></i></a>
+        <a href="#" class="main-footer__link"><i class="fa fa-instagram main-footer__icon"></i></a>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
